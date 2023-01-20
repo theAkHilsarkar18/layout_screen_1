@@ -212,7 +212,8 @@ class _Screen1State extends State<Screen1> {
       width: 100,
       child: Column(
         children: [
-          FlutterLogo(size: 50),
+          //FlutterLogo(size: 50),
+          Image.asset("assets/images/fm.png",height: 50,width: 50),
           SizedBox(
             height: 8,
           ),

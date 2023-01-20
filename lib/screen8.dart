@@ -65,6 +65,7 @@ class _Screen8State extends State<Screen8> {
                           shape: BoxShape.circle,
                           color: Colors.white,
                         ),
+                        child: Image.asset("assets/images/sky.jpg",fit: BoxFit.cover),
                       ),
                       SizedBox(
                         height: 10,
@@ -204,10 +205,10 @@ class _Screen8State extends State<Screen8> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        FlutterLogo(size: 50),
-                        FlutterLogo(size: 50),
-                        FlutterLogo(size: 50),
-                        FlutterLogo(size: 50),
+                        Image.asset("assets/images/sky.jpg",fit: BoxFit.cover),
+                        Image.asset("assets/images/sky.jpg",fit: BoxFit.cover),
+                        Image.asset("assets/images/sky.jpg",fit: BoxFit.cover),
+                        Image.asset("assets/images/sky.jpg",fit: BoxFit.cover),
                       ],
                     ),
                   ),
@@ -245,6 +246,7 @@ class _Screen8State extends State<Screen8> {
                         width: 40,
                         decoration: BoxDecoration(
                             color: Colors.blue, shape: BoxShape.circle),
+                        child: Image.asset("assets/images/sky.jpg",fit: BoxFit.cover,),
                       ),
                     ),
                     Column(
